@@ -5,7 +5,7 @@
 
 - This project aims to build a space game with a twist. Instead of using conventional keyboard controls, we intend to use OpenCV assets for Unity and integrate a hand-motion control mechanism that will allow users to interact with the game.
 
-![hand tracking](https://github.com/Prateek-Upadhya/Interactive-Space-Game/blob/main/hand tracking.jpg?raw=true)
+![hand tracking](https://github.com/Prateek-Upadhya/Interactive-Space-Game/blob/main/hand_track.jpg?raw=true)
 
 - It uses the Google Mediapipe Hands API to perform real time hand-tracking. Gestures and movements are tracked using the 21 - landmark coordinates returned by the model. The positional data of the hand is transmitted to the Unity-based game using a UDP connection. The server code is written in python while the client code is written in C# and embedded into the game scripts. 
 
